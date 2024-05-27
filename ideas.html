@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ideas</title>
+
+
+    <style>
+        .clickable{
+            color: black;
+            cursor: pointer;
+        }
+
+        .clicked{
+            color: red;
+            cursor:pointer;
+
+        }
+
+        .center-text{
+            text-align: center;
+        }
+
+        .link{
+            color:purple;
+            text-decoration:none;
+        }
+
+        .link:hover{
+            text-decoration:underline;
+        }
+
+        em{
+            color:green;
+            font-style: normal;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <h1>
+        <span class="clickable" id="clickable-word">ideas</span>
+    </h1>
+
+    <script>
+        document.getElementById('clickable-word').addEventListener('click', function() {
+            this.classList.toggle('clicked');
+        });
+    </script>
+
+    <p>
+        - Work status
+    </p>
+
+    <p>
+        - School
+    
+    </p>
+
+    <p>
+        - <em>C</em>ertification progress
+    </p>
+
+    <p>
+        - Prog<em>r</em>amming mini pr<em>o</em>jects
+    </p>
+
+    <p>
+        - Workout <em>D</em>iary
+    </p>
+
+    <p>
+        - Skat<em>i</em>ng
+    </p>
+
+    <p>
+        - Music
+    </p>
+
+    <p>
+        - Learning tr<em>e</em>e
+    </p>
+
+    <h2 class="center-text">
+        Goal of the Website is to be interactive and to evolve over time; swing by every now and then to watch my progress
+    </h2>
+
+    <p>
+        goal/inspirations: 
+    </p>
+
+    <p>
+        <a href="https://www.based.gg" class="link" target="_blank" rel="noopener noreferrer"> based.gg</a>
+    </p>
+    
+    <p>
+        <a href="https://oklama.com" class="link" target="_blank" rel="noopneer noreferrer"> oklama.com</a>
+    <p>
+
+    </p>
+
+
+</body>
+
+
+</html>
+
